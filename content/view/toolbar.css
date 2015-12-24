@@ -1,0 +1,6 @@
+#jmeter-button {
+    list-style-image: url("redline.png");
+}
+#jmeter-button.recording {
+  background-color: red;
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?> 
+
+<!DOCTYPE overlay SYSTEM "chrome://jmeter/locale/options.dtd">
+
+<overlay id="selenium_overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+	<script type="application/x-javascript" src="chrome://jmeter/content/view/options.js"/>
+
+
+  <menupopup id="options-popup">
+		<menuitem label="&jmeter.options;" accesskey="P" oncommand="showJmeterOptions();" />
+  </menupopup>
+
+</overlay>

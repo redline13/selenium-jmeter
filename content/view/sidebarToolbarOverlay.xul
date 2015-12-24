@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+
+<?xml-stylesheet href="toolbar.css" type="text/css"?>
+
+<!DOCTYPE prefwindow SYSTEM "chrome://jmeter/locale/ui.dtd">
+
+<overlay id="jmeter_sidebar_overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+	<!-- Main Entry for Start/Stop of Recording -->
+	<script type="application/x-javascript" src="chrome://jmeter/content/library/listener.js"/>
+	
+	<!-- Bridges between Selenium and Performance System -->
+	<script type="application/x-javascript" src="chrome://jmeter/content/library/selenium-jmeter.js"/>
+	
+	<!-- Recorder -->
+	<script type="application/x-javascript" src="chrome://jmeter/content/library/recorder/HttpRecorder.js"/>
+	<script type="application/x-javascript" src="chrome://jmeter/content/library/recorder/HttpVisitor.js"/>
+	<script type="application/x-javascript" src="chrome://jmeter/content/library/recorder/HttpPostParser.js"/>
+	
+	<!-- JMeter Package -->
+	<script type="application/x-javascript" src="chrome://jmeter/content/library/jmeter/jmeterTestPlan.js"/>
+	<script type="application/x-javascript" src="chrome://jmeter/content/library/jmeter/TestPlan.js"/>
+	<script type="application/x-javascript" src="chrome://jmeter/content/library/jmeter/AuthManager.js"/>
+	<script type="application/x-javascript" src="chrome://jmeter/content/library/jmeter/CookieManager.js"/>
+	<script type="application/x-javascript" src="chrome://jmeter/content/library/jmeter/CacheManager.js"/>
+  <script type="application/x-javascript" src="chrome://jmeter/content/library/jmeter/HeaderManager.js"/>
+  <script type="application/x-javascript" src="chrome://jmeter/content/library/jmeter/HTTPSamplerProxy.js"/>
+  <script type="application/x-javascript" src="chrome://jmeter/content/library/jmeter/ThreadGroup.js"/>
+	<script type="application/x-javascript" src="chrome://jmeter/content/library/jmeter/UniformRandomTimer.js"/>
+	<script type="application/x-javascript" src="chrome://jmeter/content/library/jmeter/ResultsCollector.js"/>
+
+	<toolbar id="sidebarToolbar_controls">
+		<toolbarseparator id="jmeter-separator" insertafter="record-button"/>
+		<toolbarbutton id="jmeter-button" insertafter="jmeter-separator" label="&jmeterButton.tooltip;" class="icon" checked="true" tooltiptext="&jmeterButton.tooltip;" oncommand="toggleJMeterRecording()"/>
+	</toolbar>
+</overlay>

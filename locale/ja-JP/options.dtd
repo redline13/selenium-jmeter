@@ -1,0 +1,17 @@
+<!--ja-JP-->
+<!ENTITY jmeter.options "JMeter Options...">
+
+<!ENTITY jmeter.includesTitle "Includes">
+<!ENTITY jmeter.includes "このようredline13.comなどの宿主のために含まれるように単一のパターンを定義します。">
+
+<!ENTITY jmeter.excludesTitle "Excludes">
+<!ENTITY jmeter.excludes "除外のURLのパターンを除外するシングル">
+
+<!ENTITY jmeter.maxrequestTitle "Maximum Requests">
+<!ENTITY jmeter.maxrequest "最大の要求は、レコーダー内に保持します">
+
+<!ENTITY jmeter.visualizerTitle "JMeter Visualizer">
+<!ENTITY jmeter.visualizer "JMeterのビジュアライザを有効にします">
+
+<!ENTITY jmeter.formatTitle "Save as Type">
+<!ENTITY jmeter.format "選択出力フォーマット">

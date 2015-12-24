@@ -1,0 +1,17 @@
+<!--pt-BR-->
+<!ENTITY jmeter.options "JMeter Options...">
+
+<!ENTITY jmeter.includesTitle "Includes">
+<!ENTITY jmeter.includes "Definir padrão único para incluir para host, como redline13.com">
+
+<!ENTITY jmeter.excludesTitle "Excludes">
+<!ENTITY jmeter.excludes "Único Excluir padrão para URLs de excluídos">
+
+<!ENTITY jmeter.maxrequestTitle "Maximum Requests">
+<!ENTITY jmeter.maxrequest "Solicitações máximas de manter no gravador">
+
+<!ENTITY jmeter.visualizerTitle "JMeter Visualizer">
+<!ENTITY jmeter.visualizer "Ativar JMeter Visualizer">
+
+<!ENTITY jmeter.formatTitle "Save as Type">
+<!ENTITY jmeter.format "Selecione Formato de Saída">

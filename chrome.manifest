@@ -1,0 +1,15 @@
+content jmeter  chrome/content/
+
+locale jmeter en-US chrome/locale/en-US/
+locale jmeter fr-FR chrome/locale/fr-FR/
+locale jmeter ja-JP chrome/locale/ja-JP/
+locale jmeter pt-BR chrome/locale/pt-BR/
+
+# options menu
+overlay chrome://selenium-ide/content/selenium-ide-common.xul chrome://jmeter/content/view/optionsOverlay.xul
+
+# toolbar button
+overlay chrome://selenium-ide/content/selenium-ide.xul chrome://jmeter/content/view/toolbarOverlay.xul
+
+# sidebar button
+overlay chrome://selenium-ide/content/selenium-ide-sidebar.xul chrome://jmeter/content/view/sidebarToolbarOverlay.xul
