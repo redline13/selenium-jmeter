@@ -117,6 +117,7 @@ HTTPSamplerProxy.prototype.addArgument = function(name, value, always_encode) {
 };
 
 HTTPSamplerProxy.prototype.getNode = function(parent) {
+	this.attributes.testname = "HTTP " + this.method + " " + this.path;
 	var root = jmeterTestPlan.appendNode(parent, this.nodeName, this.attributes);
 
 
