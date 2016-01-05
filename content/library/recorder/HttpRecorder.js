@@ -150,11 +150,6 @@ HttpRecorder.prototype.onResponse = function(http) {
 		console.log("Exception", e);
 	}
 
-	// this.requests[i].merge(requestResponse);
-	// var postData = requestHeaders['POSTDATA'];
-	// if (postData !== null) {
-	// 	delete requestHeaders['POSTDATA'];
-	// }
 };
 
 HttpRecorder.prototype.QueryInterface = function(iid) {
