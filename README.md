@@ -14,8 +14,9 @@ Playback your selenium test-case while recording a performance test in JMeter. T
 * Visualizer: Enable JMeter Visualizer
 
 # Resources 
-* Firefox Plugin [https://addons.mozilla.org/en-US/firefox/addon/jmeter/]
-* Tutorial [https://www.redline13.com/blog/selenium-jmeter-plugin-tutorial]
+* Firefox Plugin https://addons.mozilla.org/en-US/firefox/addon/jmeter/
+* Tutorial https://www.redline13.com/blog/selenium-jmeter-plugin-tutorial
+* Listening to Web Traffic in Firefox extension  https://www.redline13.com/blog/2016/01/writing-firefox-plugin-to-listen-to-http-traffic/
 
 # Building Plugin
 ```
