@@ -3,7 +3,7 @@
 	<Description about="urn:mozilla:install-manifest">
 		<em:id>jmeter@redline13.com</em:id>
 		<em:name>jmeter</em:name>
-		<em:version>0.01</em:version>
+		<em:version>0.1</em:version>
 		<em:creator>Richard Friedman</em:creator>
 		<em:homepageURL>https://www.redline13.com/blog/selenium-ide-plugin/</em:homepageURL>
 		<em:description>Selenium-IDE Plugin to record web traffic and create Performance Test for JMeter</em:description>
@@ -20,7 +20,7 @@
 				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
 				<!-- firefox -->
 				<em:minVersion>27.0</em:minVersion>
-				<em:maxVersion>46</em:maxVersion>
+				<em:maxVersion>43.*</em:maxVersion>
 			</Description>
 		</em:targetApplication>
 
