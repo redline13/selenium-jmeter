@@ -3,7 +3,7 @@
 	<Description about="urn:mozilla:install-manifest">
 		<em:id>jmeter@redline13.com</em:id>
 		<em:name>jmeter</em:name>
-		<em:version>0.1</em:version>
+		<em:version>0.2</em:version>
 		<em:creator>Richard Friedman</em:creator>
 		<em:homepageURL>https://www.redline13.com/blog/selenium-ide-plugin/</em:homepageURL>
 		<em:description>Selenium-IDE Plugin to record web traffic and create Performance Test for JMeter</em:description>
@@ -32,7 +32,7 @@
 			</Description>
 		</em:requires>
 
-		<em:iconURL>chrome://jmeter/icons/favicon-32x32.jpg</em:iconURL>
-		<em:icon64URL>chrome://jmeter/icons/favicon-64x64.jpg</em:icon64URL>
+		<em:iconURL>chrome://jmeter/content/icons/favicon-32x32.png</em:iconURL>
+		<em:icon64URL>chrome://jmeter/content/icons/favicon-64x64.png</em:icon64URL>
 	</Description>
 </RDF>
