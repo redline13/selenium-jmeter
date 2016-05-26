@@ -9,12 +9,12 @@ function toggleJMeterRecording() {
 		
 		var cl = document.getElementById('jmeter-button').classList;
 		if (redline13Recorder === null) {
-			var includem = preferences.getCharPref('includem');
-			var excludem = preferences.getCharPref('excludem');
+			var includer = preferences.getCharPref('includer');
+			var excluder = preferences.getCharPref('excluder');
 			var maxrequests = preferences.getIntPref('maxrequests');
 
 			cl.add('recording');
-			redline13Recorder = new HttpRecorder(includem,excludem,maxrequests);
+			redline13Recorder = new HttpRecorder(includer,excluder,maxrequests);
 			redline13Recorder.start();
 			
 		} else {

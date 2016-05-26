@@ -4,9 +4,9 @@
  * - capture/filter traffic 
  * - export as JMeter (or pluggable to other formats)
  */
-function HttpRecorder(  includem, excludem, maxrequests ) {
-	this.includem = this.getRegExPref('includem', includem, true);
-	this.excludem = this.getRegExPref('excludem', excludem, false);
+function HttpRecorder(  includer, excluder, maxrequests ) {
+	this.includer = this.getRegExPref('includer', includer, true);
+	this.excluder = this.getRegExPref('excluder', excluder, false);
 	this.maxrequests = maxrequests;
 	this.requests = new Array();
 
@@ -69,12 +69,12 @@ HttpRecorder.prototype.observe = function(subject, topic, data) {
 /** Regex to include */
 HttpRecorder.prototype.shouldInclude = function(uri) {
 	var location = new URL(uri);
-	return (this.includem === true) || this.includem.test(location.protocol + location.host + location.pathname);
+	return (this.includer === true) || this.includer.test(location.protocol + location.host + location.pathname);
 };
 
 /** Regex to exclude */
 HttpRecorder.prototype.shouldExclude = function(uri) {
-	return this.excludem && this.excludem.test(uri);
+	return this.excluder && this.excluder.test(uri);
 };
 
 /** On a REQUEST capture */

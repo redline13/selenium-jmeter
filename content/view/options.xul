@@ -4,8 +4,8 @@
 <!DOCTYPE prefwindow SYSTEM "chrome://jmeter/locale/options.dtd">
  
 <vbox xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-  <setting type="string" pref="extensions.selenium-ide.jmeter.includem" title="&jmeter.includesTitle;" desc="&jmeter.includes;"/>
-  <setting type="string" pref="extensions.selenium-ide.jmeter.excludem" title="&jmeter.excludesTitle;" desc="&jmeter.excludes;"/>
+  <setting type="string" pref="extensions.selenium-ide.jmeter.includer" title="&jmeter.includesTitle;" desc="&jmeter.includes;"/>
+  <setting type="string" pref="extensions.selenium-ide.jmeter.excluder" title="&jmeter.excludesTitle;" desc="&jmeter.excludes;"/>
   <setting type="integer" pref="extensions.selenium-ide.jmeter.maxrequests" title="&jmeter.maxrequestTitle;" desc="&jmeter.maxrequest;"/>
   <setting type="bool" pref="extensions.selenium-ide.jmeter.visualizer" title="&jmeter.visualizerTitle;" desc="&jmeter.visualizer;"/>
   <setting type="menulist" pref="extensions.selenium-ide.jmeter.format" title="&jmeter.formatTitle;" desc="&jmeter.format;">
